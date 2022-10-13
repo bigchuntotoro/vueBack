@@ -20,7 +20,6 @@ public class HelloController {
     @Autowired
     ProductService productService;
 
-
     @RequestMapping(value = "/hello" , method= RequestMethod.GET)
     public String Hello(Model model) {
         // Spring 에서 제공하는 Model 객체를 사용하여 뷰페이지에 데이터를 넘겨준다.
