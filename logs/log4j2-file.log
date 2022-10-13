@@ -1,0 +1,22 @@
+2022-10-12 15:31:05,135 [INFO ] [restartedMain] o.s.b.StartupInfoLogger: Starting SpringBootMybatisStarterApplication using Java 1.8.0_342 on DESKTOP-8UGJ75E with PID 21816 (C:\IntelliJPrj\spring-boot-mybatis-starter\target\classes started by bigch in C:\IntelliJPrj\spring-boot-mybatis-starter)
+2022-10-12 15:31:05,150 [INFO ] [restartedMain] o.s.b.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2022-10-12 15:31:05,246 [INFO ] [restartedMain] o.s.b.l.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-10-12 15:31:05,249 [INFO ] [restartedMain] o.s.b.l.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-10-12 15:31:06,614 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-12 15:31:06,618 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2022-10-12 15:31:06,650 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 22 ms. Found 0 JDBC repository interfaces.
+2022-10-12 15:31:06,671 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Multiple Spring Data modules found, entering strict repository configuration mode
+2022-10-12 15:31:06,674 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-10-12 15:31:06,698 [INFO ] [restartedMain] o.s.d.r.c.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2022-10-12 15:31:09,606 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-10-12 15:31:09,869 [INFO ] [restartedMain] o.s.b.w.s.c.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 4618 ms
+2022-10-12 15:31:10,180 [INFO ] [restartedMain] o.s.b.a.h.H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:tcp://localhost/~/test'
+2022-10-12 15:31:12,441 [INFO ] [restartedMain] o.s.o.j.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-10-12 15:31:12,903 [WARN ] [restartedMain] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-10-12 15:31:13,964 [INFO ] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-10-12 15:31:14,043 [INFO ] [restartedMain] o.s.b.w.e.t.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-10-12 15:31:14,068 [INFO ] [restartedMain] o.s.b.StartupInfoLogger: Started SpringBootMybatisStarterApplication in 9.9 seconds (JVM running for 12.025)
+2022-10-12 15:31:54,364 [INFO ] [http-nio-8080-exec-1] o.s.w.s.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2022-10-12 15:31:54,367 [INFO ] [http-nio-8080-exec-1] o.s.w.s.FrameworkServlet: Completed initialization in 2 ms
+2022-10-12 15:31:54,635 [INFO ] [http-nio-8080-exec-1] i.h.t.a.p.w.ProductResource: ---- access controller GET
+2022-10-12 15:36:34,786 [INFO ] [SpringApplicationShutdownHook] o.s.o.j.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
