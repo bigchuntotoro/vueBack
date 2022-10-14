@@ -13,7 +13,7 @@
         , status
         , record_state
         , price
-        , to_char(created_date, 'yyyy-mm-dd') created_date
+        , created_date
         , updated_date
         from TB_PRODUCT
     </select>
@@ -58,7 +58,7 @@
         id=#{id};
     </update>
 
-    <delete id="deleteById">
+    <delete id="deleteById" parameterType="io.home.test.app.product.domain.Product">
         delete from TB_PRODUCT where id = #{id};
     </delete>
 

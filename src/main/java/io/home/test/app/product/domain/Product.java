@@ -7,7 +7,7 @@ import org.springframework.data.relational.core.mapping.Table;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
-import java.time.ZonedDateTime;
+import java.util.Date;
 
 @Entity
 //@Table(name = "tb_product")
@@ -22,11 +22,11 @@ public class Product {
 
     @CreationTimestamp
     @Column(name = "created_date", updatable = false)
-    private ZonedDateTime createdDate = ZonedDateTime.now();
+    private Date createdDate = new Date();
 
     @UpdateTimestamp
     @Column(name = "updated_date", updatable = true)
-    private ZonedDateTime updatedDate;
+    private Date updatedDate;
 
     @Enumerated
     @Column(name = "record_state")
@@ -93,19 +93,19 @@ public class Product {
         this.price = price;
     }
 
-    public ZonedDateTime getCreatedDate() {
+    public Date getCreatedDate() {
         return createdDate;
     }
 
-    public void setCreatedDate(ZonedDateTime createdDate) {
+    public void setCreatedDate(Date createdDate) {
         this.createdDate = createdDate;
     }
 
-    public ZonedDateTime getUpdatedDate() {
+    public Date getUpdatedDate() {
         return updatedDate;
     }
 
-    public void setUpdatedDate(ZonedDateTime updatedDate) {
+    public void setUpdatedDate(Date updatedDate) {
         this.updatedDate = updatedDate;
     }
 

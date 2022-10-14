@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
 import java.time.ZonedDateTime;
+import java.util.Date;
 import java.util.List;
 
 @RequestMapping(value = "/api/products")
@@ -57,7 +58,7 @@ public class ProductResource {
 
         oldProduct.setName("new Name");
         oldProduct.setDescription("new Description");
-        oldProduct.setUpdatedDate(ZonedDateTime.now());
+        oldProduct.setUpdatedDate(new Date());
 
         productService.update(oldProduct);
         return ResponseEntity.ok("updated");
