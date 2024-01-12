@@ -30,16 +30,6 @@ public class HelloController {
         return "hello";
     }
 
-    @RequestMapping(value = "/hello2" , method= RequestMethod.GET)
-    public String Hello2() {
-        // Spring 에서 제공하는 Model 객체를 사용하여 뷰페이지에 데이터를 넘겨준다.
-        //model.addAttribute("result" , productService.findAll());
-
-        // jsp 페이지 호출
-        return "hello2";
-    }
-
-
     /**
      * 글쓰기 화면
      * @return
